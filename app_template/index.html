@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hello :D</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="container-login">
+          <center><img src="logo.png" alt=""></center>
+            <center><label for="">Welcome to devel</label></center>
+            <p>Please enter your account</p>
+            <input type="text" name="" value="" placeholder="Email addres">
+            <input type="password" name="" value="" placeholder="Password">
+            <button type="button" name="button">Login</button>
+            <a href="" id="btn_recovery">Recovery account</a>
+            <p class="footer">¿You do not have an account? <a href="">Sing In</a></p>
+        </div>
+        <center><img src="youtube.png" id="center_logo"></center>
+        <div class="container-signing">
+          <center><img src="logo.png" alt=""></center>
+            <center><label for="">Welcome to devel</label></center>
+            <p>Please enter your information</p>
+            <input type="text" name="" value="" placeholder="Name">
+            <input type="text" name="" value="" placeholder="Email">
+            <input type="password" name="" value="" placeholder="Password">
+            <input type="password" name="" value="" placeholder="Repeat password">
+            <p>By clicking Create Account, you accept our <a href="#">Terms and conditions</a></p>
+            <button type="button" name="button">Sign In</button>
+            <a href="" id="btn_recovery">I have account</a>
+        </div>
+  </div>
+    <style media="screen">
+      @import url('https://fonts.googleapis.com/css?family=Ubuntu');
+      .container{
+        display: flex;
+        align-items: center;
+      }
+      #center_logo{
+        opacity: .8;
+      }
+
+      img{
+        display: block;
+        margin: 10px;
+      }
+      #btn_recovery{
+        font-size: 13px;
+        color: #999;
+      }
+      label{
+        color: #999;
+        font-size: 15px;
+      }
+      p{
+        color: #555;
+        font-size: 13px;
+      }
+      .footer{
+        height:100px;
+        display: table-cell;
+        vertical-align: bottom;
+      }
+      a{
+        text-decoration: none;
+        color: #44B39D;
+      }
+      button{
+        cursor: pointer;
+        border: 1px solid #7574A7;
+        border-radius: 3px;
+        padding: 5px 10px 5px 10px;
+        background-color: #FFF;
+        color:#7574A7;
+      }
+      button:hover{
+        transition: .3s;
+        background-color: #7574A7;
+        color:#FFF;
+      }
+
+        *{
+          font-family: 'Ubuntu', sans-serif;
+          -moz-box-sizing: border-box;
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+        }
+        body{
+          background-color: #F8F8F8;
+        }
+            .container-login,.container-signing{
+            margin: 30px auto;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+            background-color: #FFF;
+            width: 100%;
+            padding: 20px;
+            max-width:300px;
+            /*height: 400px;*/
+            border-radius: 5px;
+          }
+          input{
+            border:1px solid #EEE;
+            font-size: 13px;
+            border-radius: 3px;
+            display: block;
+            width: 100%;
+            margin-top: 5px;
+            padding:5px;
+          }
+          input:focus{
+            transition: .3s;
+            padding-left: 10px;
+          }
+          button{
+            margin-top: 5px;
+          }
+    </style>
+  </body>
+</html>
